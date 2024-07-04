@@ -15,7 +15,7 @@ fetchDataBtn.addEventListener("click", async () => {
         const data = await response.json();
         // console.log("***", data);
         // Display the weather data here
-        // displayWeatherData(data);
+        displayWeatherData(data);
         hideContainer.style.display = "none";
       } catch (error) {
         console.error(error);
